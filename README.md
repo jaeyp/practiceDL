@@ -27,5 +27,5 @@ Anaconda Distribution is a free, easy-to-install package manager, environment ma
 
 ## 2. Artificial Neural Network
 ### 2.1. Activation Function
-### 2.1.1. Sigmoid Function
+#### 2.1.1. Sigmoid Function
 
