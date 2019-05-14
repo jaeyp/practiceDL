@@ -3,7 +3,7 @@ Deep Learning Practice from Scratch with Python
 
 ***
 
-## Anaconda Distribution
+## 0. Anaconda Distribution
 
 Anaconda Distribution is a free, easy-to-install package manager, environment manager and Python distribution with a collection of 1,000+ open source packages with free community support. Anaconda is platform-agnostic, so you can use it whether you are on Windows, macOS or Linux.
 
@@ -12,7 +12,7 @@ Anaconda Distribution is a free, easy-to-install package manager, environment ma
 
 ***
 
-## Perceptron
+## 1. Perceptron
 ### Logic Gate
 1. AND Gate  
 [01.perceptron/and_gate.py](https://github.com/jaeyp/practiceDL/blob/master/01.perceptron/and_gate.py)
@@ -24,4 +24,8 @@ Anaconda Distribution is a free, easy-to-install package manager, environment ma
 [01.perceptron/xor_gate.py](https://github.com/jaeyp/practiceDL/blob/master/01.perceptron/xor_gate.py)
 
 ***
+
+## 2. Artificial Neural Network
+### 2.1. Activation Function
+### 2.1.1. Sigmoid Function
 
