@@ -46,7 +46,7 @@ Anaconda Distribution is a free, easy-to-install package manager, environment ma
 #### Multiplication of Matrices
 [multiplication.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/matrices/multiplication.py?ts=4)
 
---
+---
 
 ### 2.3. Forward Propagation
 #### 3-Layer Neural Network
