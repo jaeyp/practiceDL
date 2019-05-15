@@ -7,15 +7,18 @@ samples = [(0,0), (1,0), (0,1), (1,1)]
 # Classes
 
 # Functions
+def step_function(x):
+	if x > 0:
+		return 0
+	else:
+		return 1
+
 def NAND(x1, x2):
 	x = np.array([x1, x2])
 	weight = np.array([0.5, 0.5])
 	bias = -0.7
 	tmp = np.sum(x*weight) + bias
-	if tmp <= 0:
-		return 1
-	else:
-		return 0
+	return step_function(tmp)
 
 def main():
 	for xs in samples:
