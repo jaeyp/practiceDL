@@ -14,13 +14,13 @@ Anaconda Distribution is a free, easy-to-install package manager, environment ma
 
 ## 1. Perceptron
 ### Logic Gate
-1. AND Gate  
+#### AND Gate  
 [and_gate.py](https://github.com/jaeyp/practiceDL/blob/master/01.perceptron/and_gate.py?ts=4)
-2. OR Gate  
+#### OR Gate  
 [or_gate.py](https://github.com/jaeyp/practiceDL/blob/master/01.perceptron/or_gate.py?ts=4)
-3. NAND Gate  
+#### NAND Gate  
 [nand_gate.py](https://github.com/jaeyp/practiceDL/blob/master/01.perceptron/nand_gate.py?ts=4)
-4. XOR Gate (Multi-layer Perceptron)  
+#### XOR Gate (Multi-layer Perceptron)  
 [xor_gate.py](https://github.com/jaeyp/practiceDL/blob/master/01.perceptron/xor_gate.py?ts=4)
 
 ***
