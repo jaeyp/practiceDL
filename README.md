@@ -32,6 +32,8 @@ Anaconda Distribution is a free, easy-to-install package manager, environment ma
 #### Step Function
 [step.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/activation/step.py?ts=4)  
 #### Sigmoid
+<img src="./images/sigmoid.png" alt="Sigmoid Function" width="300"/>  
+
 [sigmoid.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/activation/sigmoid.py?ts=4)  
 #### ReLU (Rectified Linear Unit)  
 [relu.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/activation/relu.py?ts=4)  
@@ -54,6 +56,12 @@ Anaconda Distribution is a free, easy-to-install package manager, environment ma
 
 [3layer.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/forward_propagation/3layer.py?ts=4)
 #### Softmax Function
+<img src="./images/softmax.png" alt="Softmax Function" width="300"/>  
+
 [softmax.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/forward_propagation/softmax.py?ts=4)
 #### Softmax Function (modified version)
+<img src="./images/softmax_modified.png" alt="Softmax Function (modified version)" width="300"/>  
+
 [softmax_modified.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/forward_propagation/softmax_modified.py?ts=4)
+
+
