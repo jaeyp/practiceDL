@@ -69,3 +69,9 @@ Anaconda Distribution is a free, easy-to-install package manager, environment ma
 [minst.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/mnist/mnist.py)
 #### MNIST Inference (Batch)
 [minst_batch.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/mnist/mnist_batch.py)
+
+***
+
+## 5. Reference
+### Deep Learning from Scratch by Saito Goki (O'REILLY)
+[github](https://github.com/oreilly-japan/deep-learning-from-scratch)
