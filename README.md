@@ -50,4 +50,4 @@ Anaconda Distribution is a free, easy-to-install package manager, environment ma
 #### Softmax Function
 [softmax.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/forward_propagation/softmax.py?ts=4)
 #### Softmax Function (modified version)
-[softmax.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/forward_propagation/softmax_modified.py?ts=4)
+[softmax_modified.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/forward_propagation/softmax_modified.py?ts=4)
