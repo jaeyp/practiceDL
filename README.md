@@ -27,7 +27,7 @@ Anaconda Distribution is a free, easy-to-install package manager, environment ma
 
 ## 2. Artificial Neural Network
 ### 2.1. Activation Function
-<img src="./images/activation.comparison.png" alt="Activation Function Comparison" width="480"/>  
+<img src="./images/activation.functions.png" alt="Activation Function Comparison" width="480"/>  
 
 #### Step Function
 [step.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/activation/step.py?ts=4)  
