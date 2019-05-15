@@ -8,7 +8,9 @@ import matplotlib.pylab as plt
 
 # Functions
 def step_function(x):
-	return np.array(x > 0, dtype=np.int)
+	# 'x > 0' changes input obj's value to true/false
+	# 'dtype=np.int' changes true/false to 1/0	 
+	return np.array(x > 0, dtype=np.int)	
 
 def main():
 	X = np.arange(-5.0, 5.0, 0.1)
