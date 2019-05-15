@@ -48,18 +48,15 @@ def predict(network, x):
 def main():
 	x, t = get_data()
 	network = init_network()
-	accuracy_cnt = 0 
+	batch_size = 100
+	accuracy_cnt = 0
 
 	start = timeit.default_timer()	# check performance
-	for i in range(len(x)):
-		y = predict(network, x[i])
-		p= np.argmax(y)		# get index that has the highest probability
-		if p == t[i]:
-			accuracy_cnt += 1
-#		else:
-#			print("-----------------------------")
-#			print(str(y))
-#			print('[wrong prediction] p:' + str(p) + ' t:' + str(t[i]))
+	for i in range(0, len(x), batch_size):
+		x_batch = x[i:i+batch_size]
+		y_batch = predict(network, x_batch)
+		p = np.argmax(y_batch, axis=1)
+		accuracy_cnt += np.sum(p == t[i:i+batch_size])
 	stop = timeit.default_timer()	# check performance
 	print("=============================")
 	print("Total elapsed time: " + str(stop - start) + " seconds")
