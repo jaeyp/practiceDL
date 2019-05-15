@@ -49,7 +49,7 @@ Anaconda Distribution is a free, easy-to-install package manager, environment ma
 ---
 
 ### 2.3. Forward Propagation
-<img src="./images/3layer.png" alt="3-Layer Neural Network" width="480"/>
+<img src="./images/3layer.png" alt="3-Layer Neural Network" width="600"/>
 
 #### 3-Layer Neural Network
 [3layer.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/forward_propagation/3layer.py?ts=4)
