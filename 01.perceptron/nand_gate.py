@@ -14,11 +14,11 @@ def step_function(x):
 		return 1
 
 def NAND(x1, x2):
-	x = np.array([x1, x2])
-	weight = np.array([0.5, 0.5])
-	bias = -0.7
-	tmp = np.sum(x*weight) + bias
-	return step_function(tmp)
+	x = np.array([x1, x2])		# input
+	w = np.array([0.5, 0.5])	# weight
+	b = -0.7					# bias
+	tmp = np.sum(x*w) + b		# linear function
+	return step_function(tmp)	# activation function (non-linear function)
 
 def main():
 	for xs in samples:

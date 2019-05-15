@@ -9,10 +9,10 @@ samples = [(0,0), (1,0), (0,1), (1,1)]
 # Classes
 
 # Functions
-def XOR(x1, x2):
-	s1 = NAND(x1, x2)
-	s2 = OR(x1, x2)
-	y = AND(s1, s2)
+def XOR(x1, x2):		# multi-layer perceptron
+	s1 = NAND(x1, x2)	# layer 1
+	s2 = OR(x1, x2)		# layer 1
+	y = AND(s1, s2)		# layer 2
 	return y
 
 def main():
