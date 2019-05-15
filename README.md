@@ -27,13 +27,11 @@ Anaconda Distribution is a free, easy-to-install package manager, environment ma
 
 ## 2. Artificial Neural Network
 ### 2.1. Activation Function
-<img src="./images/activation.functions.png" alt="Activation Function Comparison" width="480"/>  
+<img src="./images/activation.functions.png" alt="Activation Function Comparison" width="600"/>  
 
 #### Step Function
 [step.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/activation/step.py?ts=4)  
 #### Sigmoid
-<img src="./images/sigmoid.png" alt="Sigmoid Function" width="160"/>  
-
 [sigmoid.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/activation/sigmoid.py?ts=4)  
 #### ReLU (Rectified Linear Unit)  
 [relu.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/activation/relu.py?ts=4)  
