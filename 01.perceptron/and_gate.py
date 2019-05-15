@@ -1,4 +1,4 @@
-# Imports
+# Import
 import numpy as np
 
 # Global Variables
