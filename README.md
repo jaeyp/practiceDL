@@ -73,5 +73,4 @@ Anaconda Distribution is a free, easy-to-install package manager, environment ma
 ***
 
 ## 5. Reference
-### Deep Learning from Scratch by Saito Goki (O'REILLY)
-[github](https://github.com/oreilly-japan/deep-learning-from-scratch)
+#### Deep Learning from Scratch by Saito Goki (O'REILLY) [github](https://github.com/oreilly-japan/deep-learning-from-scratch)
