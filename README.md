@@ -30,14 +30,14 @@ Anaconda Distribution is a free, easy-to-install package manager, environment ma
 <img src="./images/activation.comparison.png" alt="Activation Function Comparison" width="480"/>  
 
 #### Step Function
-[step.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/step.py?ts=4)  
+[step.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/activation/step.py?ts=4)  
 #### Sigmoid
-[sigmoid.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/sigmoid.py?ts=4)  
+[sigmoid.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/activation/sigmoid.py?ts=4)  
 #### ReLU (Rectified Linear Unit)  
-[relu.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/relu.py?ts=4)  
+[relu.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/activation/relu.py?ts=4)  
 #### Leaky ReLU  
-[leaky_relu.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/leaky_relu.py?ts=4)  
+[leaky_relu.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/activation/leaky_relu.py?ts=4)  
 #### Comparison
-[activation_compare.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/activation_compare.py?ts=4)  
+[activation_compare.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/activation/activation_compare.py?ts=4)  
 
 
