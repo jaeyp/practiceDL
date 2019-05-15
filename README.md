@@ -62,4 +62,8 @@ Anaconda Distribution is a free, easy-to-install package manager, environment ma
 
 [softmax_modified.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/forward_propagation/softmax_modified.py?ts=4)
 
-
+### 2.4. MNIST
+#### MNIST Inference
+[minst.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/mnist/mnist.py)
+#### MNIST Inference (Batch)
+[minst_batch.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/mnist/mnist_batch.py)
