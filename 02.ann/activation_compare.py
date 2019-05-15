@@ -28,9 +28,9 @@ def main():
 
 	plt.plot(x, y1, 'k--', label='step function')
 	plt.plot(x, y2, label='sigmoid')
-	plt.plot(x, y3, 'b-', label='ReLU')
+	plt.plot(x, y3, 'y-', label='ReLU')
 	plt.plot(x, y4, 'r:', label='leaky ReLU')
-	plt.ylim(-0.1, 1.1)
+	plt.ylim(-0.1, 2.1)
 	plt.legend()
 	plt.show()
 

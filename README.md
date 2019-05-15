@@ -1,5 +1,5 @@
 # practiceDL
-Deep Learning Practice from Scratch with Python
+Deep Learning Practice
 
 ***
 
@@ -28,13 +28,15 @@ Anaconda Distribution is a free, easy-to-install package manager, environment ma
 ## 2. Artificial Neural Network
 ### 2.1. Activation Function
 #### Step Function
-[step.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/step.py?ts=4)
+[step.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/step.py?ts=4)  
 #### Sigmoid
-[sigmoid.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/sigmoid.py?ts=4)
+[sigmoid.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/sigmoid.py?ts=4)  
 #### ReLU (Rectified Linear Unit)  
-[relu.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/relu.py?ts=4)
+[relu.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/relu.py?ts=4)  
 #### Leaky ReLU  
-[leaky_relu.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/leaky_relu.py?ts=4)
-
+[leaky_relu.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/leaky_relu.py?ts=4)  
+#### Comparison
+[activation_compare.py](https://github.com/jaeyp/practiceDL/blob/master/02.ann/activation_compare.py?ts=4)  
+<img src="./images/activation.comparison.png" alt="Activation Function Comparison" width="480"/>  
 
 
