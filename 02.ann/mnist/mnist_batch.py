@@ -1,7 +1,7 @@
 # Imporat
 import sys, os
-project_root = os.path.abspath(os.path.dirname(__file__) + "../../")
-sys.path.append(project_root)
+project_root = os.path.abspath(os.path.dirname(__file__) + "../../")	# get absolute path of moving directory up two levels from current
+sys.path.append(project_root)	# append new path in the path attribute of the sys module
 import numpy as np
 import pickle
 import timeit	# check performance
