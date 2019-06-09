@@ -26,12 +26,10 @@ def get_data():
 	(x_train, t_train), (x_test, t_test) = load_mnist(normalize=True, flatten=True, one_hot_label=False)
 	return x_test, t_test
 
-
 def init_network():
 	with open("sample_weight.pkl", 'rb') as f:
 		network = pickle.load(f)
 	return network
-
 
 def predict(network, x): 
 	W1, W2, W3 = network['W1'], network['W2'], network['W3']

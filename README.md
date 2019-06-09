@@ -72,5 +72,14 @@ Anaconda Distribution is a free, easy-to-install package manager, environment ma
 
 ***
 
+## 3.Training an Artificial Neural Network
+### 3.1 Loss Function
+#### MSE(mean squared error) and CEE(cross entropy error)
+[loss_function.py](https://github.com/jaeyp/practiceDL/blob/master/03.training/loss_function/loss_function.py)
+#### Loss Function with Mini Batch
+[mini_batch.py](https://github.com/jaeyp/practiceDL/blob/master/03.training/loss_function/mini_batch.py)
+
+***
+
 ## 5. Reference
 #### Deep Learning from Scratch by Saito Goki (O'REILLY) [github](https://github.com/oreilly-japan/deep-learning-from-scratch)
