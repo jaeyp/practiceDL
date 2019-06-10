@@ -106,7 +106,10 @@ Loss function is an important part in artificial neural networks, which is used 
 > ![](./images/mae.png)  
 > **MAE** is more robust to outliers since it does not make use of square. 
 
-* #### CEE(cross entropy error)
+* #### MAPE (Mean Absolute Percentage Error)
+> ![](./images/mape.png)
+
+* #### CEE (cross entropy error)
 
 ***
 
