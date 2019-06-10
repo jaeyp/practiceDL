@@ -82,28 +82,29 @@ Loss function is an important part in artificial neural networks, which is used 
 
 * #### MSLE (Mean Squared Logarithmic Error)
 > **MSLE** only care about the relative difference between the real and the predicted value, or in other words, it only cares about the percentual difference between them:
-
+> 
 > y | ŷ | MSE | MSLE 
 > --- | --- | --- | ---
 > 30 | 20 | 100 | 0.02861  
 > 30000 | 20000 | 100000000 | 0.03100  
 > <i></i> | <i></i> | big difference | small difference  
-
+> 
 > **MSLE** also penalizes underestimates more than overestimates, introducing an asymmetry in the error curve:
-
+> 
 > y | ŷ | MSE | MSLE  
 > --- | --- | --- | ---  
 > 20 | 10 | 100 | 0.07886  
 > 20 | 30 | 100 | 0.02861  
 > <i></i> | <i></i> | no difference | big difference  
 
-#### MAE (Mean Absolute Error)
-**MAE** is more robust to outliers since it does not make use of square. 
+* #### MAE (Mean Absolute Error)
+> **MAE** is more robust to outliers since it does not make use of square. 
 
-#### CEE(cross entropy error)
-[loss_function.py](https://github.com/jaeyp/practiceDL/blob/master/03.training/loss_function/loss_function.py)
-#### Loss Function with Mini Batch
-[mini_batch.py](https://github.com/jaeyp/practiceDL/blob/master/03.training/loss_function/mini_batch.py)
+* #### CEE(cross entropy error)
+> [loss_function.py](https://github.com/jaeyp/practiceDL/blob/master/03.training/loss_function/loss_function.py)
+
+* #### Loss Function with Mini Batch
+> [mini_batch.py](https://github.com/jaeyp/practiceDL/blob/master/03.training/loss_function/mini_batch.py)
 
 ***
 
