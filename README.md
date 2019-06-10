@@ -94,7 +94,7 @@ y | ŷ | MSE | MSLE
 --- | --- | --- | ---  
 20 | 10 | 100 | 0.07886  
 20 | 30 | 100 | 0.02861  
-- | - | no difference | big difference  
+<i></i> | <i></i> | no difference | big difference  
 
 
 
