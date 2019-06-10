@@ -76,12 +76,13 @@ Anaconda Distribution is a free, easy-to-install package manager, environment ma
 ### 3.1 Loss Function
 Loss function is an important part in artificial neural networks, which is used to measure the inconsistency between predicted value (**ŷ**)  and actual label (**y**).
 * #### MSE(Mean Squared Error)
-> ![](./images/mse.png)
+> ![](./images/mse.png)  
 > Mean Squared Error is widely used in linear regression
 > The target of **MSE** loss function is to minimize the residual sum of squares.
 > However, if using Sigmoid as the activation function, the quadratic loss function would suffer the problem of slow convergence (learning speed)
 
 * #### MSLE (Mean Squared Logarithmic Error)
+> ![](./images/msle.png)
 > **MSLE** only care about the relative difference between the real and the predicted value, or in other words, it only cares about the percentual difference between them:
 > 
 > y | ŷ | MSE | MSLE 
@@ -99,6 +100,7 @@ Loss function is an important part in artificial neural networks, which is used 
 > <i></i> | <i></i> | no difference | big difference  
 
 * #### MAE (Mean Absolute Error)
+> ![](./images/mae.png)
 > **MAE** is more robust to outliers since it does not make use of square. 
 
 * #### CEE(cross entropy error)
