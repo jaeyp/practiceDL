@@ -109,9 +109,9 @@ Loss function is an important part in artificial neural networks, which is used 
 * #### MAPE (Mean Absolute Percentage Error)
 > ![](./images/mape.png)  
 
-* #### CEE (cross entropy error)
+* #### CEE (Cross Entropy Error)
 > ![](./images/cee.png)  
-> Cross Entropy is commonly-used in binary classification.  
+> **CEE** is commonly-used in **binary classification**.  
 
 
 ***
