@@ -86,7 +86,7 @@ y | ŷ | MSE | MSLE
 --- | --- | --- | ---
 30 | 20 | 100 | 0.02861  
 30000 | 20000 | 100000000 | 0.03100  
- | | big difference | small difference  
+  |  | big difference | small difference  
 
 MSLE also penalizes underestimates more than overestimates, introducing an asymmetry in the error curve:
 
@@ -94,7 +94,7 @@ y | ŷ | MSE | MSLE
 --- | --- | --- | ---  
 20 | 10 | 100 | 0.07886  
 20 | 30 | 100 | 0.02861  
- | | no difference | big difference  
+  |  | no difference | big difference  
 
 
 
