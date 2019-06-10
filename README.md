@@ -77,7 +77,7 @@ Anaconda Distribution is a free, easy-to-install package manager, environment ma
 Loss function is an important part in artificial neural networks, which is used to measure the inconsistency between predicted value (**ŷ**)  and actual label (**y**).
 * #### MSE(Mean Squared Error)
 > ![](./images/mse.png)  
-> Mean Squared Error is widely used in linear regression
+> **MSE** is widely used in **linear regression**.
 > The target of **MSE** loss function is to minimize the residual sum of squares.
 > However, if using Sigmoid as the activation function, the quadratic loss function would suffer the problem of slow convergence (learning speed)
 
