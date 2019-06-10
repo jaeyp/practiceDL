@@ -82,7 +82,8 @@ However, if using Sigmoid as the activation function, the quadratic loss functio
 #### MSLE (Mean Squared Logarithmic Error)
 MSLE only care about the relative difference between the real and the predicted value, or in other words, it only cares about the percentual difference between them.
 
-y | ŷ | MSE | MSLE  
+y | ŷ | MSE | MSLE 
+--- | --- | ---
 30 | 20 | 100 | 0.02861  
 30000 | 20000 | 100000000 | 0.03100  
 
