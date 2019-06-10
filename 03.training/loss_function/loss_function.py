@@ -6,19 +6,27 @@ import numpy as np
 # Classes
 
 # Functions
+'''
+t: actual values
+y: predicted values
+'''
 def mean_squared_error(y, t):
-	return 0.5 * np.sum((y-t)**2)
+	#return (1/t.size * np.sum((y-t)**2)
+	return np.mean((y-t)**2)
 
 def cross_entropy_error(y, t):
 	delta = 1e-7
 	return -np.sum(t * np.log(y + delta))
 
+def log_likelihood_error(y, t):
+	return 
+
 def main():
-	# actual value
+	# actual values
 	t = [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
-	# predicted value (right prediction)
+	# predicted values (right prediction)
 	y1 = [0.1, 0.05, 0.6, 0.0, 0.05, 0.1, 0.0, 0.1, 0.0, 0.0]
-	# predicted value (wrong prediction)
+	# predicted values (wrong prediction)
 	y2 = [0.1, 0.05, 0.1, 0.0, 0.05, 0.1, 0.0, 0.6, 0.0, 0.0]
 
 	print('[loss function with right prediction]')

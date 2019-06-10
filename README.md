@@ -72,9 +72,62 @@ Anaconda Distribution is a free, easy-to-install package manager, environment ma
 
 ***
 
-## 3.Training an Artificial Neural Network
+## 3. Training an Artificial Neural Network
 ### 3.1 Loss Function
-#### MSE(mean squared error) and CEE(cross entropy error)
+#### MSE(Mean Squared error)
+Mean Squared Error is widely used in linear regression
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+<mrow class="MJX-TeXAtom-ORD">
+<mi class="MJX-tex-caligraphic-bold" mathvariant="bold-script">L</mi>
+</mrow>
+<mo>=</mo>
+<mfrac>
+<mn>1</mn>
+<mi>n</mi>
+</mfrac>
+<munderover>
+<mo>&#x2211;<!-- ∑ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>i</mi>
+<mo>=</mo>
+<mn>1</mn>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</munderover>
+<mo stretchy="false">(</mo>
+<msup>
+<mi>y</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mo stretchy="false">(</mo>
+<mi>i</mi>
+<mo stretchy="false">)</mo>
+</mrow>
+</msup>
+<mo>&#x2212;<!-- − --></mo>
+<msup>
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>y</mi>
+<mo stretchy="false">&#x005E;<!-- ^ --></mo>
+</mover>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo stretchy="false">(</mo>
+<mi>i</mi>
+<mo stretchy="false">)</mo>
+</mrow>
+</msup>
+<msup>
+<mo stretchy="false">)</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+</math>
+
+#### CEE(cross entropy error)
 [loss_function.py](https://github.com/jaeyp/practiceDL/blob/master/03.training/loss_function/loss_function.py)
 #### Loss Function with Mini Batch
 [mini_batch.py](https://github.com/jaeyp/practiceDL/blob/master/03.training/loss_function/mini_batch.py)
