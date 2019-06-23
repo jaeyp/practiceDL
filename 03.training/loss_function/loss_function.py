@@ -6,11 +6,11 @@ import numpy as np
 ## Classes
 # Loss Function data
 class LFData:
-	def __init__(self, lname, lc, lw):
-		self.name = lname
-		self.correct = lc
-		self.wrong = lw
-		self.diff = lc / lw
+	def __init__(self, name, c, w):
+		self.name = name
+		self.correct = c
+		self.wrong = w
+		self.diff = c / w
 
 # Loss Function data storage
 class LFDataStorage:
@@ -32,11 +32,17 @@ class LFDataStorage:
 		else:
 			raise StopIteration
 
+	def __getitem__(self, index):
+		if index < self.stop:
+			return self.item[index]
+		else:
+			raise IndexError
+
 	# lname: loss function name
 	# lc: loss with correct prediction
 	# lw: loss with wrong prediction
-	def insert(self, lname, lc, lw):
-		self.item.append(LFData(lname, lc, lw))
+	def insert(self, name, c, w):
+		self.item.append(LFData(name, c, w))
 		self.stop += 1
 
 ## Functions
@@ -86,9 +92,11 @@ def main():
 
 	for i in lfs:
 		print(i.name + 
-				'\tc:{0:.5f}'.format(i.correct) +	# error with correct prediction
-				'  w:{0:.5f}'.format(i.wrong) + 	# error with wrong prediction
-				'  d:{0:.5f}'.format(i.diff))		# error differential
+			'\tc:{0:.5f}'.format(i.correct) +	# error with correct prediction
+			'  w:{0:.5f}'.format(i.wrong) + 	# error with wrong prediction
+			'  d:{0:.5f}'.format(i.diff))		# error differential
+
+#	print(lfs[1].name);	# getitem test
 
 if __name__ == '__main__':
 	main()
