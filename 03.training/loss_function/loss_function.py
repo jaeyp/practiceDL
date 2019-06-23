@@ -38,9 +38,9 @@ class LFDataStorage:
 		else:
 			raise IndexError
 
-	# lname: loss function name
-	# lc: loss with correct prediction
-	# lw: loss with wrong prediction
+	# name: loss function name
+	# c: error with correct prediction
+	# w: error with wrong prediction
 	def insert(self, name, c, w):
 		self.item.append(LFData(name, c, w))
 		self.stop += 1
