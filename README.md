@@ -113,9 +113,13 @@ Loss function is an important part in artificial neural networks, which is used 
 > ![](./images/cee.png)  
 > **CEE** is commonly-used in **binary classification**.  
 
+***
+
 ### 3.2 Numerical differentiation
 [numerical_diff.py](https://github.com/jaeyp/practiceDL/blob/master/03.training/nemerical_diff/numerical_diff.py)  
 [partial_derivative.py](https://github.com/jaeyp/practiceDL/blob/master/03.training/nemerical_diff/partial_derivative.py)  
+
+***
 
 ### 3.3 Gradient
 [gradient.py](https://github.com/jaeyp/practiceDL/blob/master/03.training/nemerical_diff/gradient.py)  
