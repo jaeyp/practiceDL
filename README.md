@@ -122,6 +122,7 @@ Loss function is an important part in artificial neural networks, which is used 
 ***
 
 ### 3.3 Gradient
+A gradient is a vector. In f(x1,...xn), its gradient consist of n partial derivatives  
 [gradient.py](https://github.com/jaeyp/practiceDL/blob/master/03.training/nemerical_diff/gradient.py)  
 
 ***
