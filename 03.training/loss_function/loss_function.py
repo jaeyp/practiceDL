@@ -68,9 +68,14 @@ def mean_absolute_percentage_error(y, t):
 mape = mean_absolute_percentage_error
 
 def cross_entropy_error(y, t):
-	delta = 1e-7
+	delta = 1e-7	# to prevent -inf when y = 0
 	return -np.sum(t * np.log(y + delta))
 cee = cross_entropy_error
+
+def cross_entropy_error2(y, t):
+	delta = 1e-7
+	return -np.sum(t * np.log(y + delta) + (1-t)*np.log(1-y + delta))
+cee2 = cross_entropy_error2
 
 def log_likelihood_error(y, t):
 	return 
@@ -79,7 +84,7 @@ lle = log_likelihood_error
 def main():
 	# actual values
 	t = [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
-	# predicted values (right prediction)
+	# predicted values (right prediction)	
 	y1 = [0.1, 0.05, 0.6, 0.0, 0.05, 0.1, 0.0, 0.1, 0.0, 0.0]
 	# predicted values (wrong prediction)
 	y2 = [0.1, 0.05, 0.1, 0.0, 0.05, 0.1, 0.0, 0.6, 0.0, 0.0]
@@ -89,6 +94,7 @@ def main():
 	lfs.insert('MSLE', msle(np.array(y1), np.array(t)), msle(np.array(y2), np.array(t)))
 	lfs.insert('MAE',  mae(np.array(y1),  np.array(t)), mae(np.array(y2),  np.array(t)))
 	lfs.insert('CEE',  cee(np.array(y1),  np.array(t)), cee(np.array(y2),  np.array(t)))
+	lfs.insert('CEE2', cee2(np.array(y1), np.array(t)), cee2(np.array(y2), np.array(t)))
 
 	for i in lfs:
 		print(i.name + 
