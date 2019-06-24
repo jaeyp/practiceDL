@@ -122,8 +122,7 @@ Loss function is an important part in artificial neural networks, which is used 
 ***
 
 ### 3.3 Gradient
-Gradient is simply a vector which gives the direction of maximum rate of change. By taking steps in that direction, we hope to reach our optimal solution.  
-So for example, in f(x1,...xn), its gradient consist of n partial derivatives.  
+Gradient is simply a vector which gives the direction of maximum rate of change. By taking steps in that direction, we hope to reach our optimal solution. So for example, in f(x1,...xn), its gradient consist of n partial derivatives.  
 [gradient.py](https://github.com/jaeyp/practiceDL/blob/master/03.training/nemerical_diff/gradient.py)  
 
 ***
