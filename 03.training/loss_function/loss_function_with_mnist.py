@@ -101,10 +101,10 @@ def main():
 		correct_answers = np.sum(p == t_batch)
 		total_correct_answers += correct_answers
 
-		print(f'SAMPLE[{i}]------------')
-		print(f'MSE:  {mse(p, t_batch)}')
+		print(f'SAMPLE[{i}:{i+batch_size}]-----------')
+		print('MSE:  ' + '{0:.5f}'.format(mse(p, t_batch)))
 		print('MSLE: ' + '{0:.5f}'.format(msle(p, t_batch)))
-		print(f'MAE:  {mae(p, t_batch)}')
+		print('MAE:  ' + '{0:.5f}'.format(mae(p, t_batch)))
 		print('CEE:  ' + '{0:.5f}'.format(cee(p, t_batch)))
 		print(f'accuracy: {correct_answers}/{batch_size}')
 #		print(f'{p==t_batch}')

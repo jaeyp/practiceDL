@@ -75,8 +75,11 @@ Anaconda Distribution is a free, easy-to-install package manager, environment ma
 ## 3. Training an Artificial Neural Network
 ### 3.1 Loss Function
 Loss function is an important part in artificial neural networks, which is used to measure the inconsistency between predicted value (**ŷ**)  and actual label (**y**).  
-  
+
+#### Basic Loss Functions
 [loss_function.py](https://github.com/jaeyp/practiceDL/blob/master/03.training/loss_function/loss_function.py)  
+
+#### Loss calculation with MNIST digits classification
 [loss_function_with_mnist.py](https://github.com/jaeyp/practiceDL/blob/master/03.training/loss_function/loss_function_with_mnist.py)  
 
 * #### MSE(Mean Squared Error)
