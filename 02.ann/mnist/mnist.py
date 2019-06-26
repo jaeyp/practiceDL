@@ -53,7 +53,7 @@ def main():
 	start = timeit.default_timer()	# check performance
 	for i in range(len(x)):
 		y = predict(network, x[i])
-		p= np.argmax(y)		# get index that has the highest probability
+		p = np.argmax(y)	# get index that has the highest probability
 		if p == t[i]:
 			accuracy_cnt += 1
 #		else:

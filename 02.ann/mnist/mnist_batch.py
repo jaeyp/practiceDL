@@ -31,16 +31,16 @@ def init_network():
 		network = pickle.load(f)
 	return network
 
-def predict(network, x): 
-	W1, W2, W3 = network['W1'], network['W2'], network['W3']
-	b1, b2, b3 = network['b1'], network['b2'], network['b3']
+def predict(network, x): 	# forward propagation
+	W1, W2, W3 = network['W1'], network['W2'], network['W3']	# weight
+	b1, b2, b3 = network['b1'], network['b2'], network['b3']	# bias
 
 	a1 = np.dot(x, W1) + b1
-	z1 = sigmoid(a1)
+	z1 = sigmoid(a1)	# activation
 	a2 = np.dot(z1, W2) + b2
-	z2 = sigmoid(a2)
+	z2 = sigmoid(a2)	# activation
 	a3 = np.dot(z2, W3) + b3
-	y = softmax(a3)
+	y = softmax(a3)		# identity function
 	return y
 
 def main():
